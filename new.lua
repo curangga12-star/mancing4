@@ -1761,7 +1761,7 @@ local function BuildFishPayload(player, fishId, weight)
 	local tier = fish.Tier
 
 	return {
-		username = "UQiLL Fishing Logger",
+		username = "Blagobla Nottification",
 		embeds = {{
 			title = (RARITY_GRADIENT[tier] or "") .. " 🎣 Fish Obtained",
 			color = RARITY_COLOR[tier],
@@ -1899,7 +1899,7 @@ local HudState = {
 -- UI ROOT
 ---------------------------------------------------------------------
 local Gui = Instance.new("ScreenGui")
-Gui.Name = "UQiLL_PerformanceHUD"
+Gui.Name = "Blagobla_PerformanceHUD"
 Gui.ResetOnSpawn = false
 Gui.Parent = PlayerGui
 Gui.Enabled = false
@@ -1935,7 +1935,7 @@ local Title = Instance.new("TextLabel")
 Title.Position = UDim2.fromOffset(36, 0)
 Title.Size = UDim2.new(1, -36, 1, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "UQiLL Performance Monitoring"
+Title.Text = "Idam Performance Monitoring"
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 13
 Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -2113,7 +2113,7 @@ local function setElementVisible(name, visible)
     end)
 end
 
-local Window = WindUI:CreateWindow({ Title = "UQiLL", Icon = "chess-king", Author = "by UQi", Transparent = true })
+local Window = WindUI:CreateWindow({ Title = "Blagobla", Icon = "chess-king", Author = "by Blagobla", Transparent = true })
 Window.Name = GUI_NAMES.Main 
 Window:Tag({ Title = "v.4.5.0", Icon = "github", Color = Color3.fromHex("#30ff6a"), Radius = 0 })
 Window:SetToggleKey(Enum.KeyCode.H)
